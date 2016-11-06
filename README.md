@@ -8,4 +8,4 @@ It is currently a complete work in progress.
 
 ## Documentation
 
-You can read it online : [here](http://vberger.github.io/silinapse/silinapse/index.html)
+(Original Silinapse documentation [here](http://vberger.github.io/silinapse/silinapse/index.html))
