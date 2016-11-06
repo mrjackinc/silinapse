@@ -1,4 +1,4 @@
-//! Silinapse -- A library of silicon synapses
+//! Tinnmann -- A library for NN 
 //!
 //! Accross the library, if the input slices do not contain enough
 //! values for the unit they are given to, the missing values will
