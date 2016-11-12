@@ -86,13 +86,12 @@ impl<F, V, D> FeedforwardLayer<F, V, D>
     }
 
     /// Creates a new linear feedforward layer with its weights and biases provided
-    pub fn new_from_values<G>(inputs: usize,
-                              outputs: usize,
-                              activation: ActivationFunction<F, V, D>,
-                              coefficients: Vec<F>,
-                              biases: Vec<F>)
+    pub fn new_from_values(inputs: usize,
+                           outputs: usize,
+                           activation: ActivationFunction<F, V, D>,
+                           coefficients: Vec<F>,
+                           biases: Vec<F>)
         -> FeedforwardLayer<F, V, D>
-        where G: FnMut() -> F
     {
         FeedforwardLayer {
             inputs: inputs,

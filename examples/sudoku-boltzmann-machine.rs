@@ -8,12 +8,12 @@
 /// groups representing one emplacement in the sudoku. The 9 neurons represent the 9 possible
 /// values of the emplacement, so in a solution only one of them should be activated at a given time.
 
-extern crate silinapse;
+extern crate tinnmann;
 
 use std::io::Write;
 
-use silinapse::SymmetricMatrix;
-use silinapse::BoltzmannMachine;
+use tinnmann::SymmetricMatrix;
+use tinnmann::BoltzmannMachine;
 
 // +-------+-------+-------+
 // | 5 _ _ | 8 _ 6 | _ _ 4 |
